@@ -12,7 +12,7 @@ sudo apt-get install mono-complete
 ```
 python3 gif-to-ascii.py 80 10
 ```
-Where 80 is cols count (size), and 10 is down-step
+Where 80 is cols count (size), and 10 is down-step  
 3. check the selected animation
 ```
 cd cs
