@@ -10,14 +10,17 @@ sudo apt-get install mono-complete
 1. put 1 or several gif animation files to gifs path  
 2. run
 ```
-python3 gif-to-ascii.py 80 10
+python3 gif-to-ascii.py 80 10 100000 0
 ```
-Where 80 is cols count (size), and 10 is down-step  
-3. check the selected animation
+Where  
+- 80 is cols count (size)  
+- 10 is down-step  
+- 100000 is script lenght limit  
+- 0 is morelevels parameter (1 to enable)  
+4. check the selected animation
 ```
 cd cs
-mcs -out:film.exe fraksl-fractals.cs
-mono film.exe
+./compile.sh fraksl-fractals.cs
 ```
 4. press ctrl+c to stop infinity loop
-5. copy source code of se/your_script.cs and paste them to space engioneers program block. Don't foirget to set name or lcd
+5. copy source code of se/your_script.cs and paste them to space engioneers program block. Don't foirget to set name of lcd
