@@ -1,3 +1,2 @@
 #sudo apt-get install mono-complete
-mcs -out:film.exe fraksl-fractals.cs
-mono film.exe
+mcs -out:film.exe $1;mono film.exe
