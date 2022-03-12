@@ -24,3 +24,4 @@ cd cs
 ```
 4. press ctrl+c to stop infinity loop
 5. copy source code of se/your_script.cs and paste them to space engioneers program block. Don't foirget to set name of lcd
+6. Set monospace font
