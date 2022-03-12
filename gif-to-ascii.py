@@ -173,16 +173,16 @@ def cs_save(cs, se_file_name):
 
 
 def main():
-    if len(sys.argv)!=3:
-        print("Usage: python3 gif-to-ascii.py cols, step")
+    if len(sys.argv)!=5:
+        print("Usage: python3 gif-to-ascii.py cols, step, script_length_limit, morelevels")
         print("Example:")
-        print("python3 gif-to-ascii.py 80 10")
+        print("python3 gif-to-ascii.py 80 10 100000 0")
         sys.exit(1)
 
     # set scale default as 0.43 which suits a Courier font
-    script_len_limit=100000
+    script_len_limit = int(sys.argv[3]) # 100000
     scale = 0.43
-    moreLevels = True
+    moreLevels = int(sys.argv[4])
     step = int(sys.argv[2])
     
 
