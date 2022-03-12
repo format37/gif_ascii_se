@@ -112,7 +112,7 @@ def se_code(cs_frames, frames_len):
 
         public Program()
         {
-            game_state = Convert.ToInt32(Storage);
+            //game_state = Convert.ToInt32(Storage);
             Runtime.UpdateFrequency = UpdateFrequency.Update1;
         }
 
